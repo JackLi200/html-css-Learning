@@ -1,0 +1,230 @@
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.top {
+	height: 52px;
+	background-color: #333333;
+}
+
+.top .wrapper li {
+  float: left;
+  line-height: 52px;
+}
+
+.top .wrapper a {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #dcdcdc;
+  padding: 0 15px;
+  border-right: 1px solid #666;
+}
+
+.top .wrapper li:last-child a {
+  border: none;
+}
+
+.top .wrapper a span {
+  display: inline-block;
+  background-image: url(../images/sprites.png);
+  width: 11px;
+  height: 16px; 
+  background-position: -160px -70px;
+  margin-right: 8px;
+  vertical-align: -3px;
+}
+
+.nav {
+  height: 130px;
+  padding-left: 23px;
+}
+
+.nav li{
+  float: left;
+  margin: 53px 48px 46px 0;
+}
+
+.nav .logo a {
+  display: inline-block;
+  font-size: 0;
+  background-image: url(../images/logo.png);
+  width: 207px;
+	height: 70px;
+  margin-top: 28px;
+  margin-right: 40px;
+  background-size: contain;
+}
+
+.nav li a {
+  display: inline-block;
+  padding-bottom: 7px;
+  font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #333333;
+}
+
+.nav li a:hover {
+  border-bottom: 1px solid #27ba9b;
+  color: #27ba9b;
+}
+
+.nav .fr {
+  margin-top: 53px;
+  margin-left: 34px;
+}
+
+
+.nav .fr .searchbar{
+  position: relative;
+  float: left;
+  width: 172px;
+  height: 30px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+
+.nav .fr input {
+  padding-left: 30px;
+  width: 142px;
+}
+
+.nav .fr .searchbar button {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/sprites.png);
+  background-position: -79px -69px;
+  border: none;
+  top: 0;
+  left: 2px;
+  background-color: #fff;
+}
+
+.nav .fr input::placeholder {
+  font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #cccccc;
+}
+
+
+.nav .fr .cart {
+  position: relative;
+  background-image: url(../images/sprites.png);
+  width: 22px;
+  height: 22px;
+  background-position: -120px -70px;
+  margin-left: 15px;
+}
+
+.nav .fr .cart span {
+  position: absolute;
+  top: -6px;
+  right: -13px;
+  font-family: PingFangSC-Medium;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+	background-color: #e26237;
+	border-radius: 8px;
+  width: 20px;
+	height: 15px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.cpright {
+  height: 343px;
+  background-color: #333333 ;
+}
+
+.cpright .wrapper {
+  width: 1393px;
+}
+
+.cpright .top {
+  height: 175px;
+  border-bottom: 3px solid #434343;
+  padding-left: 135px;
+  padding-top: 59px;
+}
+
+.cpright .top li {
+  float: left;
+  padding-right: 300px;
+}
+
+.cpright .top li:last-child {
+  padding-right: 0;
+}
+
+.cpright .top span {
+  font-family: PingFangSC-Light;
+	font-size: 28px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+
+.cpright .top span::before {
+  content: '';
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprites.png);
+  vertical-align: middle;
+  margin-right: 19px;
+}
+
+.cpright .top li:nth-child(2) span::before {
+  background-position: -65px 0;
+}
+
+.cpright .top li:nth-child(3) span::before {
+  background-position: -130px 0;
+}
+
+.cpright .bottom {
+  text-align: center;
+}
+
+.cpright .bottom p {
+  font-family: PingFangSC-Light;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #999999;
+  padding-top: 40px;
+}
+
+.cpright .bottom a {
+  font-family: PingFangSC-Light;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #999999;
+}
+
+.cpright .bottom span {
+  font-family: PingFangSC-Light;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #999999;
+}
+

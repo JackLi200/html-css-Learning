@@ -1,0 +1,26 @@
+
+.red {
+  color: red;
+}
+
+.size {
+  font-size: 66px;
+}
+
+#btn1 {
+  color: brown;
+}
+
+.Lorem {
+  font-size: 24px;
+  text-indent: 2em;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.div1 {
+  margin: 0 center;
+  background-color: pink;
+  width: 300px;
+  height: 300px;
+}
